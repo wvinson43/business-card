@@ -4,7 +4,7 @@
 
 Build with React, HTML, CSS, and a sprinkle of JS.
 
-#Deployment
+# Deployment
 
 You can check it out here:
 
