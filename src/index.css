@@ -1,13 +1,153 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: Inter, sans-serif;
+    padding: 0;
+    font-size: 0.625rem;
+    background:  #23252C;
+    color: #Add8e6;
+    max-width: 480px;
+    margin: 2em auto;
+}
+
+.hero {
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 10px 10px;
+    width: 295px;
+    background: #1A1B21;
+    max-width: 295px;
+    padding: 0;  
+}
+
+
+.hero-card {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0;
+   padding: 0;  
+}
+
+.card--picture {
+    object-fit: cover;
+    height: 268px;
+    width: 295px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+    border-bottom: 3px solid #1A1B21;
+}
+
+.card--name {
+    color: #E5b80B;
+    margin-bottom: 0;
+    margin-top: .4em;
+    font-size: 1.563rem;
+}
+
+.card--role {
+    margin-top: 0.3em;
+    color: #AA6c39;
+    font-size: 0.775rem;
+    margin-bottom: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 2
+}
+
+.card--btn {
+    font-size: .8rem;
+    background: #b29700;
+    color: #121212;
+    text-decoration: none;
+    font-weight: 500;
+    padding: .75em 6em;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.card--btn:hover, 
+.card--btn:focus {
+    transform: scale(1.04);
+    background-color: #E5b80B;
+}
+
+.card--contact {
+    margin-top: 0.8em;
+    font-size: 0.7rem;
+}
+
+.about {
+   margin: 0 4.5em;
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   padding: 0;  
+}
+
+.about--title {
+    font-size: 1rem;
+    color: #AA6c39;
+    margin-bottom: -.2em;
+    margin-top: .8rem
+}
+
+.about--content{
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+
+.interests {
+   margin: 0 4.5em;
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   padding: 0;  
+}
+
+.interests--title {
+    color: #AA6c39;
+    font-size: 1rem;
+    margin-bottom: -.2em;
+    margin-top: .8rem;
+}
+
+.interests--info {
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+
+.footer {
+    margin-top: 1.2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+}
+
+.social--icon{
+    width: 25px;
+    margin-bottom: 1.8em;
+}
+
+.img:hover, 
+.img:focus {
+    transform: scale(1.04);
+    color: #E5b80B;
+}
+
+
+ .img {
+    color: #918E9B;
+    font-size: 1rem;
+}
+
+@media (min-width: 481px) { 
+
 }
